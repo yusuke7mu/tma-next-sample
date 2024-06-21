@@ -1,11 +1,9 @@
-import { useTranslation } from "next-i18next";
 import Link from "next/link";
 import React from "react";
 
 export default function MainMenu() {
-  const { t } = useTranslation("common");
   const menuList = [
-    { label: t("mainMenu.home"), href: "/home" },
+    { label: "home", href: "/home" },
     { label: "sample", href: "/sample" },
   ];
 
