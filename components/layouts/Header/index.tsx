@@ -1,5 +1,4 @@
 import React from "react";
-import LocaleSwitcher from "./LocaleSwitcher";
 
 export default function Header() {
   return (
