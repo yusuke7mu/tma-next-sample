@@ -1,0 +1,13 @@
+{
+  "prettier.endOfLine": "lf",
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "cSpell.words": [
+    "oasys"
+  ],
+  "prettier.withNodeModules": false,
+  "editor.formatOnSaveMode": "modifications",
+}

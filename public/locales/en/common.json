@@ -1,0 +1,11 @@
+{
+  "login": "login",
+  "logout": "logout",
+  "mainMenu": {
+    "home": "HOME"
+  },
+  "button": {
+    "ok": "OK",
+    "cancel": "cancel"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "login": "ログイン",
+  "logout": "ログアウト",
+  "mainMenu": {
+    "home": "HOME"
+  },
+  "button": {
+    "ok": "OK",
+    "cancel": "キャンセル"
+  }
+}

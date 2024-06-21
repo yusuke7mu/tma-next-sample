@@ -1,0 +1,37 @@
+{
+  "name": "tma-next-sample",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "firebase": "^10.12.2",
+    "firebase-admin": "^12.1.1",
+    "google-protobuf": "^3.21.2",
+    "grpc-web": "^1.5.0",
+    "i18next": "^23.11.5",
+    "jotai": "^2.8.3",
+    "next": "14.2.3",
+    "next-auth": "^4.24.7",
+    "next-i18next": "^15.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.5",
+    "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
