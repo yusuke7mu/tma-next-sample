@@ -6,7 +6,7 @@ export default function Home() {
   const { t } = useTranslation("home");
   return (
     <>
-      <h2>home</h2>
+      <h2>ホーム</h2>
     </>
   );
 }
