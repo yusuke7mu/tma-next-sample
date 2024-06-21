@@ -4,6 +4,7 @@ import React from "react";
 export default function MainMenu() {
   const menuList = [
     { label: "home", href: "/home" },
+    { label: "webapp", href: "/webapp" },
     { label: "sample", href: "/sample" },
   ];
 
