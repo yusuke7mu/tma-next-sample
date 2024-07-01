@@ -1,9 +1,25 @@
 import { useTelegram } from "@/features/telegram/context/TelegramProvider";
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function TelegramWebApp() {
   const { user, webApp } = useTelegram();
   console.log(user);
+
+  useEffect(() => {
+    (async () => {
+      const res = await fetch("/api/check", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          data: webApp?.initData,
+        }),
+      });
+      const data = await res.json();
+      console.log(data);
+    })();
+  }, [webApp]);
 
   return (
     <div>
